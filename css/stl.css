@@ -1,0 +1,181 @@
+html{
+    overflow-x: hidden;
+    scroll-snap-type: 9vh;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("/photos/background.jpg");
+    position:relative;
+    background-size: 250vh;
+    background-repeat:no-repeat;
+    overflow-x: hidden;
+     
+}
+
+ul{
+    font-size: 4vh;
+    text-align: start;
+    list-style-type: none;
+    margin: 0;
+    padding: 5;
+    overflow: hidden;
+    background-color: #003569;
+
+}
+ul:hover{
+    display: block;
+}
+ul li{
+    background-color: #002a55;
+    border-radius: 1.5vh;
+    text-align: center;
+}
+li{
+
+    display: inline-block;
+}
+li a{/*ad ve kateqoriya*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.5vh 1vh;
+    text-decoration: none;
+    transition: 0.4s;
+}
+li a:hover{
+    background-color: rgb(104, 90, 182);
+    border-radius: 1vh;
+    transform: scale(1.04);
+}
+
+ul li ul{
+    z-index: 10;
+    background-color: rgb(0, 27, 90);
+    font-size: 4vh;
+    display: none;
+    position: absolute;
+    padding: 1.5vh 1vh;
+    text-align: center;
+}
+ul li:hover ul{
+    display: block;
+}
+
+
+.kateqor{
+    display: block;
+}
+.esas{
+    background-color:rgb(0, 101, 114);
+    border-radius:1vh;
+    
+}
+.search{
+    margin-left: 152vh;
+    display: block;
+}
+.searchbutton{
+    display: inline-block;
+    width: 50vh;
+}
+.ft1{
+    width: 200vh;
+    height: 35vh;
+    margin: 0% auto;
+    padding: 3vh 0vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+
+
+.ftimg{
+    width: 35vh;
+    height: 32vh;
+    margin: 1vh 0vh;
+    border-radius: 2.5vh;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.ftimg:hover{
+    transform: scale(1.2);
+    background-color: rgb(255, 255, 255);
+    z-index: 5;
+}
+.ftdonge{
+    margin: 14vh 8vh 18.5vh 8vh;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    color: #b41313;
+    border-radius: 1vh;
+    transition: 0.8s;
+}
+.ftdonge:hover{
+    transform: scale(2);
+
+}
+.signlogo{
+    padding: 3vh;
+    text-align: center;
+    font-style: italic;
+}
+.sign3{
+    text-align: center;
+    
+}
+.girisler{
+    height: 5vh;
+    width: 25vh;
+    border-radius: 1.5vh;
+    margin-bottom: 0.4vh;
+}
+.loginbutton{
+    width: 80vh;
+    height: 40vh;
+    border-radius: 2vh;
+    display: block;
+    text-align: center;
+    display: flex;
+    background-color: antiquewhite;
+    padding-top: 9vh;
+    
+}
+.logindiv{
+    text-align: center;
+    margin-left: 31%;
+    margin-top: 25vh;
+}
+.signgoogle{
+    border-radius: 1.5vh;
+}
+.signlogo{
+    width: 33vh;
+}
+footer{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+
+#cookies {
+    width: 30%;
+    height: 100px;
+    border: 1px solid black;
+    position: fixed;
+    bottom: 3vh;
+    right: 3vh;
+    padding: 3vh;
+    background-color: gray;
+    border-radius: 3vh;  
+}
+#cookies p {
+    font-family: fantasy;
+    color: rgb(141, 2, 2);
+}
+#cookies:hover{
+    transform: scale(1.05) ;
+    transition: all 0.5s;
+ 
+    
+}
